@@ -10,7 +10,7 @@ const Settings = () => {
   const [showUrl, setShowUrl] = useState(false);
 
   useEffect(() => {
-    setWebhookUrl('https://script.google.com/macros/s/AKfycbwuGHY3s4XJWiOoqMEfm0WATl62r9xYCIVAMQBzXjRGBuT83C_nfpGpR1_EIM5okofE/exec');
+    setWebhookUrl('https://script.google.com/a/macros/marketingevo.com.br/s/AKfycbzKXdrLO5XtfUFLb6be5GQOyFIzYhdVC3jwwgnyvA65BXVCdansuO92NN4FSKa19Jul/exec');
   }, []);
 
   const handleSave = () => {

@@ -14,7 +14,7 @@ const ThankYou = () => {
   }, [searchParams]);
 
   // URL do WhatsApp (personalizável)
-  const whatsappNumber = '5511999999999'; // Altere para seu número
+  const whatsappNumber = '5531989236061'; // Altere para seu número
   const whatsappMessage = `Olá! Acabei de me cadastrar no formulário. Meu nome é ${name} e tenho interesse em ${course}.`;
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
