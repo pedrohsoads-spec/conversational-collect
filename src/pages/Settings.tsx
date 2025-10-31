@@ -10,7 +10,7 @@ const Settings = () => {
   const [showUrl, setShowUrl] = useState(false);
 
   useEffect(() => {
-    setWebhookUrl(getDefaultWebhookUrl());
+    setWebhookUrl('https://script.google.com/macros/s/AKfycbwuGHY3s4XJWiOoqMEfm0WATl62r9xYCIVAMQBzXjRGBuT83C_nfpGpR1_EIM5okofE/exec');
   }, []);
 
   const handleSave = () => {
